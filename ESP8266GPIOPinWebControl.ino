@@ -15,7 +15,7 @@ void setup() {
   Serial.begin(115200);
 
   // Conect to WiFi
-  WiFi.begin("It Burns When IP", "lucy1816647"); 
+  WiFi.begin("WIFINAME", "PASSWORD"); 
   Serial.print("Waiting to connect...");
 
   // Wait for WiFi connection
